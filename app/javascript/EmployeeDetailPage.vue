@@ -16,6 +16,7 @@
         <dd>{{ employee.payment }}</dd>
         <dt>Note</dt>
         <dd>{{ employee.note }}</dd>
+        <td><router-link :to="{ name: 'EmployeeIndexPage'}">戻る</router-link></td>
     </dl>
 </template>
 
