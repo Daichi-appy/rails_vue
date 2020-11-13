@@ -22,6 +22,7 @@
             <td>
                 <button @click="deleteTarget = e.id; showModal = true">Delete</button>
             </td>
+            <td><router-link :to="{ name: 'EmployeeEditPage', params: {id: e.id}}"><button>Edit</button></router-link></td>
             </tr>
         </tbody>
         </table>
